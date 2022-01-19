@@ -1,0 +1,11 @@
+.list {
+    display: flex;
+    align-items: center;
+    @include reset-list;
+}
+.list__item {
+    margin-right: 32px; 
+}
+.list__item:last-child {
+    margin-right: 0;
+}

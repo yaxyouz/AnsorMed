@@ -1,0 +1,38 @@
+.connection {
+    background-color: $blue;
+    color: $white;
+    margin-top: 132px;
+    padding-bottom: 64px;
+}
+.connection__container {
+   padding-top: 64px;
+   text-align: center;
+}
+.connection__title {
+    @include font;
+    text-align: center;
+    font-size: 36px;
+    margin: 0;
+}
+.connection__content {
+    padding-top: 40px;
+}
+.connection__link {
+    @include font;
+    display: inline-block;
+    text-transform: uppercase;  
+    color: $white;
+    font-size: 15px;
+    border: 2px solid $white;
+    border-radius: 8px;
+    padding: 12px 24px;
+    margin: 0;
+    margin-right: 40px;
+}
+.connection__link:hover {
+    background-color: $red;
+    border: 2px solid $red;
+}
+.connection__link:last-child {
+    margin-right: 0;
+}

@@ -1,0 +1,18 @@
+.footer {
+    background-color: #000;
+}
+.footer__container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    color: $white;
+}
+.footer__link {
+    font-weight: bold; 
+    color: $white;
+    text-transform: uppercase;  
+}
+.footer__link:hover {
+    color: $red;
+}

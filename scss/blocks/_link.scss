@@ -1,0 +1,14 @@
+.link {
+    display: inline-block;
+    @include font;
+    text-transform: uppercase;  
+    padding: 12px 24px;
+    background-color: $red;
+    border: 2px solid $red;
+    border-radius: 8px;
+    color: #fff; 
+}
+.link:hover {
+    background-color: $white;
+    color: $red;
+}

@@ -1,0 +1,25 @@
+.intro {
+    background: $blue;
+    color: $white;
+}
+.intro__container {
+    display: flex;
+    align-items: flex-end;
+}
+.intro__content {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.intro__title {
+    @include font;
+    font-size: 36px; 
+    margin: 0;
+}
+.intro__descreption {
+    font-weight: normal;
+    font-size: 18px;
+    width: 440px;  
+    margin: 0;
+    margin-top: 16px;
+    margin-bottom: 48px; 
+}

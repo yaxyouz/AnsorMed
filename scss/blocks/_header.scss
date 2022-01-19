@@ -1,0 +1,22 @@
+.header__container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.header__nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header__link {
+    @include font; 
+    color: #222222;
+    text-transform: uppercase;   
+}
+.header__link:hover {
+    color: $red;
+}
+.link__acceptance {
+    margin-left: 114px;
+}

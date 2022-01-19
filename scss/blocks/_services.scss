@@ -1,0 +1,37 @@
+.services__container {
+    width: 864px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 120px;
+}
+.services__title {
+    @include font;
+    margin: 0;
+    padding-bottom: 56px;
+    font-size: 36px;
+}
+.services__list {
+    @include reset-list;
+    padding-bottom: 60px;
+}
+.services__item {
+    display: flex;
+    align-items: flex-start;
+}
+.services__item-content {
+    display: block;
+    padding-left: 64px;
+    margin-top: 10px;
+    text-align: left;
+}
+.services__item-title {
+    @include font;
+    font-size: 24px;
+    margin: 0;
+    text-align: left;
+}
+.services__item-descreption {
+    font-size: 16px;
+    margin: 0;
+    margin-top: 24px;
+}
